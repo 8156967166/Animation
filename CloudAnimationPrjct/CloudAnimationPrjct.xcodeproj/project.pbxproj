@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB438B52908F1AC00B7337B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB438B42908F1AC00B7337B /* SecondViewController.swift */; };
+		CEB438B72908F41400B7337B /* circularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB438B62908F41400B7337B /* circularTransition.swift */; };
+		CECC2AF629081BA2003EB79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC2AF529081BA2003EB79A /* AppDelegate.swift */; };
+		CECC2AF829081BA2003EB79A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC2AF729081BA2003EB79A /* SceneDelegate.swift */; };
+		CECC2AFA29081BA2003EB79A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC2AF929081BA2003EB79A /* ViewController.swift */; };
+		CECC2AFD29081BA2003EB79A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC2AFB29081BA2003EB79A /* Main.storyboard */; };
+		CECC2AFF29081BA5003EB79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC2AFE29081BA5003EB79A /* Assets.xcassets */; };
+		CECC2B0229081BA5003EB79A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC2B0029081BA5003EB79A /* LaunchScreen.storyboard */; };
+		D2932FB8FAA2B3BA1DFC778D /* Pods_CloudAnimationPrjct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D820BA9A85708787F8BFBECE /* Pods_CloudAnimationPrjct.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1386F089D0C3257FF8048AAF /* Pods-CloudAnimationPrjct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudAnimationPrjct.debug.xcconfig"; path = "Target Support Files/Pods-CloudAnimationPrjct/Pods-CloudAnimationPrjct.debug.xcconfig"; sourceTree = "<group>"; };
+		17C9346F16230F6FB1974583 /* Pods-CloudAnimationPrjct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudAnimationPrjct.release.xcconfig"; path = "Target Support Files/Pods-CloudAnimationPrjct/Pods-CloudAnimationPrjct.release.xcconfig"; sourceTree = "<group>"; };
+		CEB438B42908F1AC00B7337B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CEB438B62908F41400B7337B /* circularTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circularTransition.swift; sourceTree = "<group>"; };
+		CECC2AF229081BA2003EB79A /* CloudAnimationPrjct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudAnimationPrjct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC2AF529081BA2003EB79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECC2AF729081BA2003EB79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CECC2AF929081BA2003EB79A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CECC2AFC29081BA2003EB79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECC2AFE29081BA5003EB79A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECC2B0129081BA5003EB79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECC2B0329081BA5003EB79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D820BA9A85708787F8BFBECE /* Pods_CloudAnimationPrjct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudAnimationPrjct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECC2AEF29081BA2003EB79A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2932FB8FAA2B3BA1DFC778D /* Pods_CloudAnimationPrjct.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA4FE9B472A39138B8432AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1386F089D0C3257FF8048AAF /* Pods-CloudAnimationPrjct.debug.xcconfig */,
+				17C9346F16230F6FB1974583 /* Pods-CloudAnimationPrjct.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CECC2AE929081BA2003EB79A = {
+			isa = PBXGroup;
+			children = (
+				CECC2AF429081BA2003EB79A /* CloudAnimationPrjct */,
+				CECC2AF329081BA2003EB79A /* Products */,
+				1AA4FE9B472A39138B8432AA /* Pods */,
+				D4E560E670B83576A5B48C83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CECC2AF329081BA2003EB79A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECC2AF229081BA2003EB79A /* CloudAnimationPrjct.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECC2AF429081BA2003EB79A /* CloudAnimationPrjct */ = {
+			isa = PBXGroup;
+			children = (
+				CECC2AF529081BA2003EB79A /* AppDelegate.swift */,
+				CECC2AF729081BA2003EB79A /* SceneDelegate.swift */,
+				CEB438B62908F41400B7337B /* circularTransition.swift */,
+				CECC2AF929081BA2003EB79A /* ViewController.swift */,
+				CEB438B42908F1AC00B7337B /* SecondViewController.swift */,
+				CECC2AFB29081BA2003EB79A /* Main.storyboard */,
+				CECC2AFE29081BA5003EB79A /* Assets.xcassets */,
+				CECC2B0029081BA5003EB79A /* LaunchScreen.storyboard */,
+				CECC2B0329081BA5003EB79A /* Info.plist */,
+			);
+			path = CloudAnimationPrjct;
+			sourceTree = "<group>";
+		};
+		D4E560E670B83576A5B48C83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D820BA9A85708787F8BFBECE /* Pods_CloudAnimationPrjct.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECC2AF129081BA2003EB79A /* CloudAnimationPrjct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC2B0629081BA5003EB79A /* Build configuration list for PBXNativeTarget "CloudAnimationPrjct" */;
+			buildPhases = (
+				B1D354860AD962450D60B7B6 /* [CP] Check Pods Manifest.lock */,
+				CECC2AEE29081BA2003EB79A /* Sources */,
+				CECC2AEF29081BA2003EB79A /* Frameworks */,
+				CECC2AF029081BA2003EB79A /* Resources */,
+				8F5C6675DD6CA1DD13E42F93 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudAnimationPrjct;
+			productName = CloudAnimationPrjct;
+			productReference = CECC2AF229081BA2003EB79A /* CloudAnimationPrjct.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECC2AEA29081BA2003EB79A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CECC2AF129081BA2003EB79A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = CECC2AED29081BA2003EB79A /* Build configuration list for PBXProject "CloudAnimationPrjct" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECC2AE929081BA2003EB79A;
+			productRefGroup = CECC2AF329081BA2003EB79A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECC2AF129081BA2003EB79A /* CloudAnimationPrjct */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECC2AF029081BA2003EB79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC2B0229081BA5003EB79A /* LaunchScreen.storyboard in Resources */,
+				CECC2AFF29081BA5003EB79A /* Assets.xcassets in Resources */,
+				CECC2AFD29081BA2003EB79A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F5C6675DD6CA1DD13E42F93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudAnimationPrjct/Pods-CloudAnimationPrjct-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CloudAnimationPrjct/Pods-CloudAnimationPrjct-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CloudAnimationPrjct/Pods-CloudAnimationPrjct-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D354860AD962450D60B7B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudAnimationPrjct-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECC2AEE29081BA2003EB79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB438B52908F1AC00B7337B /* SecondViewController.swift in Sources */,
+				CECC2AFA29081BA2003EB79A /* ViewController.swift in Sources */,
+				CECC2AF629081BA2003EB79A /* AppDelegate.swift in Sources */,
+				CEB438B72908F41400B7337B /* circularTransition.swift in Sources */,
+				CECC2AF829081BA2003EB79A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CECC2AFB29081BA2003EB79A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC2AFC29081BA2003EB79A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECC2B0029081BA5003EB79A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC2B0129081BA5003EB79A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECC2B0429081BA5003EB79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECC2B0529081BA5003EB79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECC2B0729081BA5003EB79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1386F089D0C3257FF8048AAF /* Pods-CloudAnimationPrjct.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudAnimationPrjct/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.CloudAnimationPrjct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECC2B0829081BA5003EB79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C9346F16230F6FB1974583 /* Pods-CloudAnimationPrjct.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CloudAnimationPrjct/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.CloudAnimationPrjct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECC2AED29081BA2003EB79A /* Build configuration list for PBXProject "CloudAnimationPrjct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC2B0429081BA5003EB79A /* Debug */,
+				CECC2B0529081BA5003EB79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECC2B0629081BA5003EB79A /* Build configuration list for PBXNativeTarget "CloudAnimationPrjct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC2B0729081BA5003EB79A /* Debug */,
+				CECC2B0829081BA5003EB79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECC2AEA29081BA2003EB79A /* Project object */;
+}

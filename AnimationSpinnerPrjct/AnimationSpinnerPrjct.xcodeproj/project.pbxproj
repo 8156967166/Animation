@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1534CB4D539777010FC75E1A /* Pods_AnimationSpinnerPrjct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A668A22B47356B9C8E1E222C /* Pods_AnimationSpinnerPrjct.framework */; };
+		CE3D5369292499D300331B8E /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D5368292499D300331B8E /* SampleViewController.swift */; };
+		CEB438B92908F75F00B7337B /* ViewAnimatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB438B82908F75F00B7337B /* ViewAnimatingViewController.swift */; };
+		CEC6DE1C29092B6F00182143 /* CurveAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6DE1B29092B6F00182143 /* CurveAnimationViewController.swift */; };
+		CEC6DE1E29092D5100182143 /* Example1AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6DE1D29092D5100182143 /* Example1AnimationViewController.swift */; };
+		CEC6DE24290932B700182143 /* AnimationExample1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6DE23290932B700182143 /* AnimationExample1ViewController.swift */; };
+		CEC6DE262909364300182143 /* Example3AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6DE252909364300182143 /* Example3AnimationViewController.swift */; };
+		CEC6DE28290936C600182143 /* AnimationExample3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6DE27290936C600182143 /* AnimationExample3TableViewCell.swift */; };
+		CEC6DE2A290936FF00182143 /* Fruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6DE29290936FF00182143 /* Fruits.swift */; };
+		CEC6DE2C2909371100182143 /* FruitsTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6DE2B2909371100182143 /* FruitsTableViewCellModel.swift */; };
+		CEC6DE2E29093FC700182143 /* ButtonAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6DE2D29093FC700182143 /* ButtonAnimationViewController.swift */; };
+		CECC2AD6290813C0003EB79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC2AD5290813C0003EB79A /* AppDelegate.swift */; };
+		CECC2AD8290813C0003EB79A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC2AD7290813C0003EB79A /* SceneDelegate.swift */; };
+		CECC2ADA290813C0003EB79A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC2AD9290813C0003EB79A /* ViewController.swift */; };
+		CECC2ADD290813C0003EB79A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC2ADB290813C0003EB79A /* Main.storyboard */; };
+		CECC2ADF290813C2003EB79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC2ADE290813C2003EB79A /* Assets.xcassets */; };
+		CECC2AE2290813C2003EB79A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC2AE0290813C2003EB79A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A668A22B47356B9C8E1E222C /* Pods_AnimationSpinnerPrjct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationSpinnerPrjct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FFB4A363148407DC81B3D2 /* Pods-AnimationSpinnerPrjct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationSpinnerPrjct.debug.xcconfig"; path = "Target Support Files/Pods-AnimationSpinnerPrjct/Pods-AnimationSpinnerPrjct.debug.xcconfig"; sourceTree = "<group>"; };
+		CBF3AEFA0732C0546C176473 /* Pods-AnimationSpinnerPrjct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationSpinnerPrjct.release.xcconfig"; path = "Target Support Files/Pods-AnimationSpinnerPrjct/Pods-AnimationSpinnerPrjct.release.xcconfig"; sourceTree = "<group>"; };
+		CE3D5368292499D300331B8E /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		CEB438B82908F75F00B7337B /* ViewAnimatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimatingViewController.swift; sourceTree = "<group>"; };
+		CEC6DE1B29092B6F00182143 /* CurveAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveAnimationViewController.swift; sourceTree = "<group>"; };
+		CEC6DE1D29092D5100182143 /* Example1AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1AnimationViewController.swift; sourceTree = "<group>"; };
+		CEC6DE23290932B700182143 /* AnimationExample1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample1ViewController.swift; sourceTree = "<group>"; };
+		CEC6DE252909364300182143 /* Example3AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3AnimationViewController.swift; sourceTree = "<group>"; };
+		CEC6DE27290936C600182143 /* AnimationExample3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample3TableViewCell.swift; sourceTree = "<group>"; };
+		CEC6DE29290936FF00182143 /* Fruits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruits.swift; sourceTree = "<group>"; };
+		CEC6DE2B2909371100182143 /* FruitsTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsTableViewCellModel.swift; sourceTree = "<group>"; };
+		CEC6DE2D29093FC700182143 /* ButtonAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimationViewController.swift; sourceTree = "<group>"; };
+		CECC2AD2290813C0003EB79A /* AnimationSpinnerPrjct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSpinnerPrjct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC2AD5290813C0003EB79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECC2AD7290813C0003EB79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CECC2AD9290813C0003EB79A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CECC2ADC290813C0003EB79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECC2ADE290813C2003EB79A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECC2AE1290813C2003EB79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECC2AE3290813C2003EB79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECC2ACF290813C0003EB79A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1534CB4D539777010FC75E1A /* Pods_AnimationSpinnerPrjct.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A95F5F1B28E8E20EB68828F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4FFB4A363148407DC81B3D2 /* Pods-AnimationSpinnerPrjct.debug.xcconfig */,
+				CBF3AEFA0732C0546C176473 /* Pods-AnimationSpinnerPrjct.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A91458531ED6993340B0806C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A668A22B47356B9C8E1E222C /* Pods_AnimationSpinnerPrjct.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECC2AC9290813C0003EB79A = {
+			isa = PBXGroup;
+			children = (
+				CECC2AD4290813C0003EB79A /* AnimationSpinnerPrjct */,
+				CECC2AD3290813C0003EB79A /* Products */,
+				2A95F5F1B28E8E20EB68828F /* Pods */,
+				A91458531ED6993340B0806C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CECC2AD3290813C0003EB79A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECC2AD2290813C0003EB79A /* AnimationSpinnerPrjct.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECC2AD4290813C0003EB79A /* AnimationSpinnerPrjct */ = {
+			isa = PBXGroup;
+			children = (
+				CECC2AD5290813C0003EB79A /* AppDelegate.swift */,
+				CECC2AD7290813C0003EB79A /* SceneDelegate.swift */,
+				CEC6DE29290936FF00182143 /* Fruits.swift */,
+				CEC6DE27290936C600182143 /* AnimationExample3TableViewCell.swift */,
+				CEC6DE2B2909371100182143 /* FruitsTableViewCellModel.swift */,
+				CECC2ADB290813C0003EB79A /* Main.storyboard */,
+				CECC2ADE290813C2003EB79A /* Assets.xcassets */,
+				CECC2AE0290813C2003EB79A /* LaunchScreen.storyboard */,
+				CECC2AE3290813C2003EB79A /* Info.plist */,
+				CECC2AD9290813C0003EB79A /* ViewController.swift */,
+				CEB438B82908F75F00B7337B /* ViewAnimatingViewController.swift */,
+				CEC6DE1B29092B6F00182143 /* CurveAnimationViewController.swift */,
+				CEC6DE1D29092D5100182143 /* Example1AnimationViewController.swift */,
+				CEC6DE23290932B700182143 /* AnimationExample1ViewController.swift */,
+				CEC6DE252909364300182143 /* Example3AnimationViewController.swift */,
+				CEC6DE2D29093FC700182143 /* ButtonAnimationViewController.swift */,
+				CE3D5368292499D300331B8E /* SampleViewController.swift */,
+			);
+			path = AnimationSpinnerPrjct;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECC2AD1290813C0003EB79A /* AnimationSpinnerPrjct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC2AE6290813C2003EB79A /* Build configuration list for PBXNativeTarget "AnimationSpinnerPrjct" */;
+			buildPhases = (
+				B5B77970EE227DDF114E68C8 /* [CP] Check Pods Manifest.lock */,
+				CECC2ACE290813C0003EB79A /* Sources */,
+				CECC2ACF290813C0003EB79A /* Frameworks */,
+				CECC2AD0290813C0003EB79A /* Resources */,
+				797B8CCFD8D24D00AB368523 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationSpinnerPrjct;
+			productName = AnimationSpinnerPrjct;
+			productReference = CECC2AD2290813C0003EB79A /* AnimationSpinnerPrjct.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECC2ACA290813C0003EB79A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CECC2AD1290813C0003EB79A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = CECC2ACD290813C0003EB79A /* Build configuration list for PBXProject "AnimationSpinnerPrjct" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECC2AC9290813C0003EB79A;
+			productRefGroup = CECC2AD3290813C0003EB79A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECC2AD1290813C0003EB79A /* AnimationSpinnerPrjct */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECC2AD0290813C0003EB79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC2AE2290813C2003EB79A /* LaunchScreen.storyboard in Resources */,
+				CECC2ADF290813C2003EB79A /* Assets.xcassets in Resources */,
+				CECC2ADD290813C0003EB79A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		797B8CCFD8D24D00AB368523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimationSpinnerPrjct/Pods-AnimationSpinnerPrjct-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimationSpinnerPrjct/Pods-AnimationSpinnerPrjct-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimationSpinnerPrjct/Pods-AnimationSpinnerPrjct-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5B77970EE227DDF114E68C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimationSpinnerPrjct-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECC2ACE290813C0003EB79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC6DE2A290936FF00182143 /* Fruits.swift in Sources */,
+				CEC6DE1E29092D5100182143 /* Example1AnimationViewController.swift in Sources */,
+				CEC6DE24290932B700182143 /* AnimationExample1ViewController.swift in Sources */,
+				CEC6DE1C29092B6F00182143 /* CurveAnimationViewController.swift in Sources */,
+				CECC2ADA290813C0003EB79A /* ViewController.swift in Sources */,
+				CEC6DE2E29093FC700182143 /* ButtonAnimationViewController.swift in Sources */,
+				CECC2AD6290813C0003EB79A /* AppDelegate.swift in Sources */,
+				CE3D5369292499D300331B8E /* SampleViewController.swift in Sources */,
+				CEC6DE2C2909371100182143 /* FruitsTableViewCellModel.swift in Sources */,
+				CEB438B92908F75F00B7337B /* ViewAnimatingViewController.swift in Sources */,
+				CEC6DE262909364300182143 /* Example3AnimationViewController.swift in Sources */,
+				CEC6DE28290936C600182143 /* AnimationExample3TableViewCell.swift in Sources */,
+				CECC2AD8290813C0003EB79A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CECC2ADB290813C0003EB79A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC2ADC290813C0003EB79A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECC2AE0290813C2003EB79A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC2AE1290813C2003EB79A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECC2AE4290813C2003EB79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECC2AE5290813C2003EB79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECC2AE7290813C2003EB79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FFB4A363148407DC81B3D2 /* Pods-AnimationSpinnerPrjct.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimationSpinnerPrjct/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.AnimationSpinnerPrjct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECC2AE8290813C2003EB79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF3AEFA0732C0546C176473 /* Pods-AnimationSpinnerPrjct.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimationSpinnerPrjct/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app.AnimationSpinnerPrjct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECC2ACD290813C0003EB79A /* Build configuration list for PBXProject "AnimationSpinnerPrjct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC2AE4290813C2003EB79A /* Debug */,
+				CECC2AE5290813C2003EB79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECC2AE6290813C2003EB79A /* Build configuration list for PBXNativeTarget "AnimationSpinnerPrjct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC2AE7290813C2003EB79A /* Debug */,
+				CECC2AE8290813C2003EB79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECC2ACA290813C0003EB79A /* Project object */;
+}

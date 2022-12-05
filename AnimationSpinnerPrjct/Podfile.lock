@@ -1,0 +1,28 @@
+PODS:
+  - SJFrameSwift (0.1.0)
+  - TransitionButton (0.5.3)
+
+DEPENDENCIES:
+  - SJFrameSwift (from `https://github.com/SJClass/SJFrameSwift.git`)
+  - TransitionButton
+
+SPEC REPOS:
+  trunk:
+    - TransitionButton
+
+EXTERNAL SOURCES:
+  SJFrameSwift:
+    :git: https://github.com/SJClass/SJFrameSwift.git
+
+CHECKOUT OPTIONS:
+  SJFrameSwift:
+    :commit: 7861b5bb1728c62ce417d64b1ed10aa87d152ff8
+    :git: https://github.com/SJClass/SJFrameSwift.git
+
+SPEC CHECKSUMS:
+  SJFrameSwift: d8a2b08d7074eb8d41046828d44a2e024c92b91e
+  TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
+
+PODFILE CHECKSUM: de65f67847bba25d7e205cbb23ae9c00783f132e
+
+COCOAPODS: 1.11.3

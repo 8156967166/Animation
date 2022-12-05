@@ -1,0 +1,6 @@
+framework module Pods_AnimationSpinnerPrjct {
+  umbrella header "Pods-AnimationSpinnerPrjct-umbrella.h"
+
+  export *
+  module * { export * }
+}
